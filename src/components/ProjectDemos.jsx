@@ -19,7 +19,7 @@ const ProjectDemos = () => {
             img: flashCardImg,
             title: "Flash Card Api",
             desc: "Skills: React, Redux Tool Kit, Css Grid, Api calls",
-            enlace:"https://webdevelopment.alejoforero.com/"
+            enlace:"https://flashcarddemo.alejoforero.com/"
         },
     ]
     return (
