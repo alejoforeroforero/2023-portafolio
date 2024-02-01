@@ -3,7 +3,7 @@ import React from 'react'
 import ProjectItem from './ProjectItem'
 
 import webDevImg from '../assets/web-development.png'
-import compraImg from '../assets/compra.png'
+import flashCardImg from '../assets/flashcard.png'
 
 const ProjectDemos = () => {
     const web = [
@@ -13,6 +13,13 @@ const ProjectDemos = () => {
             title: "My Portafolio Web",
             desc: "Skills: React, TailwindCss",
             enlace:""
+        },
+        {
+            id: 'flashCard',
+            img: flashCardImg,
+            title: "Flash Card Api",
+            desc: "Skills: React, Redux Tool Kit, Css Grid, Api calls",
+            enlace:"https://webdevelopment.alejoforero.com/"
         },
     ]
     return (

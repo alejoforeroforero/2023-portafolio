@@ -10,7 +10,7 @@ const Main = () => {
             <div className='w-full h-screen absolute top-0 left-0 bg-[#fff]/30'>
                 <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
                     <h1 className='sm:text-5xl text-4xl mb-[20px] font-bold text-gray-300 pt-[36px]'>Alejandro Forero</h1>
-                    <h2 className='flex text-[14px] pt-[4px] pl-[14px] md:pl-[0px] sm:text-1xl text-gray-100'>Frontend Developer (4 years) | Full-stack Developer (1 year)</h2>
+                    <h2 className='flex text-[14px] pt-[4px] pl-[14px] md:pl-[0px] sm:text-1xl text-gray-100'>Frontend Developer (5 years) | Full-stack Developer (1 year)</h2>
                     <h3 className='flex text-[14px] pt-[4px] pl-[14px] md:pl-[0px] sm:text-2xl text-gray-100'>
                         My main skills are
                         <TypeAnimation
@@ -19,6 +19,8 @@ const Main = () => {
                                 800,
                                 'React',
                                 800,
+                                'Redux Tool Kit',
+                                800,                            
                                 'CSS',
                                 800,
                                 'TailWindCss',
