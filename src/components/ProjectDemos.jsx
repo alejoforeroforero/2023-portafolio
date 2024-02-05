@@ -2,8 +2,9 @@ import React from 'react'
 
 import ProjectItem from './ProjectItem'
 
-import webDevImg from '../assets/web-development.png'
-import flashCardImg from '../assets/flashcard.png'
+import webDevImg from '../assets/web-development.png';
+import flashCardImg from '../assets/flashcard.png';
+import estoreImg from '../assets/estore.png';
 
 const ProjectDemos = () => {
     const web = [
@@ -15,12 +16,20 @@ const ProjectDemos = () => {
             enlace:""
         },
         {
+            id: 'estore',
+            img: estoreImg,
+            title: "E-Store Api",
+            desc: "Skills: React, Redux Tool Kit, Css Grid, Api calls",
+            enlace:"https://estoredemo.alejoforero.com/"
+        },
+        {
             id: 'flashCard',
             img: flashCardImg,
             title: "Flash Card Api",
             desc: "Skills: React, Redux Tool Kit, Css Grid, Api calls",
             enlace:"https://flashcarddemo.alejoforero.com/"
         },
+        
     ]
     return (
         <>
